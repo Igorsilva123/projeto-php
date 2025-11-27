@@ -5,5 +5,9 @@
     $db = mysqli_select_db($conexao, "projeto");
 
     if(!$conexao){
-        echo "<h2>Erro ao conectar o banco de dados</h2>";
+        die("Erro ao se conectar: ". mysqli_connect_error());
     }
+
+
+
+?>

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { UserDataRegistration } from '../../models/user.model';
-import { UserService } from '../../services/user';
+import { UserService } from '../../services/user/user';
 import { CommonModule } from '@angular/common';
 
 

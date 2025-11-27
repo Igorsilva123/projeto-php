@@ -1,8 +1,7 @@
 
 <?php
-    // Conteúdo
     if(empty($_SERVER["QUERY_STRING"])){
-        $var = "user-register-form";
+        $var = "user-register";
         include_once "$var.php";
     }elseif($_GET['pg']){
         $pg = $_GET['pg'];
@@ -10,4 +9,6 @@
     }else{
         echo "Página não encontrada";
     }
+
+
 ?>
