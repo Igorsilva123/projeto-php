@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #161e31;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    background-color: #2d3250;
+    padding: 30px 40px;
+    border-radius: 6px;
+    flex: 1 1 350px;
+    min-width: 300px;
+    box-shadow: 0 0 10px #00000025;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3a3f5c;
+    color: #fff;
+    font-size: 15px;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: #43496b;
+    box-shadow: 0 0 0 2px #f8b17980;
+}
+
+.form-control::placeholder {
+    color: #bbbbbb;
+}
+
+.btn-custom {
+    background-color: #f8b179;
+    color: #121214;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.btn-custom:hover {
+    background-color: #e09b5f;
+    transform: translateY(-1px);
+}
+
+.btn-outline-custom {
+    border: 2px solid #f8b179;
+    color: #f8b179;
+    background-color: transparent;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+.btn-outline-custom:hover {
+    background-color: #f8b179;
+    color: #121214;
+    transform: translateY(-1px);
+}
+.logo-title {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #f8b179;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    width: 100%;
+}
+
+.small-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #cccccc;
+}
+
+.small-text a {
+    color: #f8b179;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.small-text a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #161e31;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.screen {
+    background: #2d3250;
+    color: #f8b179;
+    padding: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.seat-btn {
+    width: 60px;
+    height: 60px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.livre {
+    background-color: #2d3250;
+    color: #ffffff;
+}
+
+.livre:hover {
+    background-color: #021245;
+}
+
+.ocupado {
+    background-color: #927314;
+    color: white;
+    cursor: not-allowed;
+}
+
+.selected {
+    background-color: #e09b5f;
+    color: #fff;
+}
+
+.btn-confirm {
+    background-color: #f8b179;
+    color: #121214;
+    font-weight: 600;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.btn-confirm:hover {
+    background-color: #29485b;
+    transform: translateY(-2px);
+}

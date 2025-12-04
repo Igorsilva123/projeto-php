@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Usuário</title>
+    <link rel="stylesheet" href="../css/formulario-registro.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <h1 class="logo-title">PHPoltrona 🍿</h1>
+
+        <h2>Registrar Usuário</h2>
+        <form action="../backend/user-register.php" method="POST">
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                placeholder="Seu nome completo"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="Seu e-mail"
+                required
+            >
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                class="form-control"
+                placeholder="Deve ter no mínimo sete caracteres"
+                required
+            >
+
+            <button type="submit" class="btn-custom">Salvar</button>
+
+            <p class="small-text">
+                Já possui uma conta?
+                <a href="formulario-login.html">Faça login aqui</a>
+            </p>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

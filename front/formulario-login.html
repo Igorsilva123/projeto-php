@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/formulario-login.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1 class="logo-title">PHPoltrona 🍿</h1>
+
+        <h2>Login</h2>
+
+        <form action="../backend/user-login.php" method="POST">
+
+            <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Digite seu e-mail"
+                required
+            >
+
+            <input
+                type="password"
+                name="password"
+                class="form-control"
+                placeholder="Digite sua senha"
+                required
+            >
+
+            <button type="submit" class="btn-custom">Entrar</button>
+                <p class="small-text">
+                Não possui uma conta? 
+                <a href="formulario-registro.html">Cadastrar-se</a>
+             </p>
+
+        </form>
+
+      
+    </div>
+
+</div>
+
+</body>
+</html>
